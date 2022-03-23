@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "27275420-fad9-4d10-8f09-3587292a3b75",
+		"name": "Nike",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://digitalmarketing.dea-eng-prod.nikecloud.com/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "authority:digitalmarketing.dea-eng-prod.nikecloud.com",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "method:POST",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "path:/products",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "scheme:https",
+						"type": "text"
+					},
+					{
+						"key": "accept",
+						"value": "*/*",
+						"type": "text"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh-CN,zh;q=0.9",
+						"type": "text"
+					},
+					{
+						"key": "content-length",
+						"value": "75",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.nike.com",
+						"type": "text"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.nike.com/",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\"",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "Windows",
+						"type": "text"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"type": "text"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"type": "text"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"type": "text"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"cloudProductIds\":[\"62ee26cc-9ef0-5a38-bf36-37c5568b8818\"],\"country\":\"cn\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://digitalmarketing.dea-eng-prod.nikecloud.com/products",
+					"protocol": "https",
+					"host": [
+						"digitalmarketing",
+						"dea-eng-prod",
+						"nikecloud",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://insights-collector.newrelic.com/v1/accounts/714737/events",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "zh-CN,zh;q=0.9",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": "905",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "insights-collector.newrelic.com",
+						"type": "text"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.nike.com",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.nike.com/",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\"",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "Windows",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "X-Insert-Key",
+						"value": "2lrxTiTBk6-5ot3iFiVRFwzX40tQTtw7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"AdtechMarketingClientEvent\",\"country\":\"cn\",\"currencyCode\":\"CNY\",\"currencyType\":\"CNY\",\"productsCloudProductId\":\"62ee26cc-9ef0-5a38-bf36-37c5568b8818\",\"productsColor\":\"DH7440-100\",\"productsCurrentPrice\":\"799\",\"productsCurrentPriceTotal\":\"799\",\"device\":\"Desktop\",\"discount\":0,\"productsDiscountAmount\":\"\",\"event\":\"marketingClientEvent\",\"eventName\":\"onProductViewed\",\"isEVO\":\"N\",\"filter\":\"\",\"productsFullPrice\":\"799\",\"language\":\"zh-CN\",\"productsName\":\"Nike Air Force 1 '07 LV8\",\"orderId\":\"\",\"promoCodeList\":\"\",\"productsQuantity\":\"1\",\"productsSize\":\"\",\"productsSku\":\"\",\"shipping\":0,\"subtotal\":0,\"tax\":0,\"total\":0,\"windowHREF\":\"https://www.nike.com/cn/t/air-force-1-07-lv8-%E7%94%B7%E5%AD%90%E8%BF%90%E5%8A%A8%E9%9E%8B-CfD50c/DH7440-100\",\"version\":\"3.5.1\",\"view\":\"pdp\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://insights-collector.newrelic.com/v1/accounts/714737/events",
+					"protocol": "https",
+					"host": [
+						"insights-collector",
+						"newrelic",
+						"com"
+					],
+					"path": [
+						"v1",
+						"accounts",
+						"714737",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nike.com//buy/promotion_visibility/v1/styleColor/DH7440-100/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647/marketplace/CN/language/zh-Hans",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.nike.com//buy/promotion_visibility/v1/styleColor/DH7440-100/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647/marketplace/CN/language/zh-Hans",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nike",
+						"com"
+					],
+					"path": [
+						"",
+						"buy",
+						"promotion_visibility",
+						"v1",
+						"styleColor",
+						"DH7440-100",
+						"consumerChannelId",
+						"d9a5bc42-4b9c-4976-858a-f159cf99c647",
+						"marketplace",
+						"CN",
+						"language",
+						"zh-Hans"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
